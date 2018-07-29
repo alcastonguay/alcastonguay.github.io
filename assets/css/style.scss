@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$special-elite: 'Special Elite', cursive;
+$open-sans: 'Open Sans', sans-serif;
+
+body {
+  background: url("../backgrounds/linedpaper.png");
+  font-family: $open-sans, Geneva, sans-serif;
+}
+
+nav {
+  font-family: $special-elite, "Lucida Console", Monaco, monospace;
+}
+
+.site-footer {
+  border-top: none;
+  padding: 30px 0;
+}
