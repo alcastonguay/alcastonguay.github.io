@@ -17,9 +17,8 @@ author: Amanda Lynn Castonguay
 title: AmandaLynn.media
 email: contact@amandalynn.media
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a technical communications professional and artist. With a background in communications and
-  new media, I combines my experience with design, usability and programming to build highly intuitive
-  programming platforms.
+  Amanda Lynn is brings the principals of design to the world of software engineering, creating 
+  interfaces and documentation that work better for users and engineers.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://amandalynn.media" # the base hostname & protocol for your site, e.g. http://example.com
