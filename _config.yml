@@ -17,13 +17,14 @@ author: Amanda Lynn
 title: AmandaLynn.media
 email: contact@amandalynn.media
 description: >- # this means to ignore newlines until "baseurl:"
-  Amanda Lynn is brings the principals of design to the world of software, creating compelling 
+  Amanda Lynn brings the principals of design to the world of software, creating compelling 
   visualizations and user interfaces.
 
 baseurl: # the subpath of your site, e.g. /blog
 url: "https://amandalynn.media" # the base hostname & protocol for your site, e.g. http://example.com
 
 header_pages:
+  - xgraph.md
   - dreu.md
   - about.md
 
