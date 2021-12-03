@@ -5,9 +5,11 @@
     --light-gray: #b5b5b5;
     --green: #91BC70;
     --light-green: #C2EEA1;
+    --dark-green: #738962;
     --yellow: #D4D47F;
     --light-yellow: #FFFEAC;
     --gray-yellow: #9B9A6E;
+    --light-blue: #8BB3C8;
 }
 
 
@@ -17,7 +19,15 @@ body {
 }
 
 .bg-light-yellow {
-    background-color: var(--gray-yellow);
+    background-color: var(--yellow);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.sticky-board {
+    padding: 7rem;
 }
 
 .sticky-title {
@@ -35,22 +45,49 @@ body {
     width: 15rem;
     height: 15rem;
     position: relative;
-    left: -52px;
     padding: .5rem; 
     background-color: var(--light-yellow);
     z-index: 100;
-    left: -3rem;
+    left: -40px;
 }
 
 .sticky-subtitle {
     width: 12rem;
     height: 12rem;
     position: relative;
-    left: -52px;
     padding: .5rem; 
     background-color: var(--light-purple);
     transform: rotate(0.02turn);
     z-index: 1000;
-    left: -30px;
+    left: -28px;
     top: -30px;
+}
+
+.skills {
+    padding: 3rem 10rem;
+}
+
+.skills h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--purple);
+}
+
+.navbar-light .navbar-brand {
+    color: var(--purple);
+    font-weight: 600;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: var(--purple);
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--purple);
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--dark-green);
 }
