@@ -1,0 +1,56 @@
+:root {
+    --purple: #7D578D;
+    --light-purple: #B98DCD;
+    --gray: #666666;
+    --light-gray: #b5b5b5;
+    --green: #91BC70;
+    --light-green: #C2EEA1;
+    --yellow: #D4D47F;
+    --light-yellow: #FFFEAC;
+    --gray-yellow: #9B9A6E;
+}
+
+
+
+body {
+    background: url("./background-linedpaper.png");
+}
+
+.bg-light-yellow {
+    background-color: var(--gray-yellow);
+}
+
+.sticky-title {
+    font-size: 4rem;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+    background-color: var(--light-green);
+    border-radius: 2px;
+    transform: rotate(-0.02turn);
+    z-index: -10;
+}
+
+.sticky-next {
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    left: -52px;
+    padding: .5rem; 
+    background-color: var(--light-yellow);
+    z-index: 100;
+    left: -3rem;
+}
+
+.sticky-subtitle {
+    width: 12rem;
+    height: 12rem;
+    position: relative;
+    left: -52px;
+    padding: .5rem; 
+    background-color: var(--light-purple);
+    transform: rotate(0.02turn);
+    z-index: 1000;
+    left: -30px;
+    top: -30px;
+}
